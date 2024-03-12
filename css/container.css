@@ -1,3 +1,8 @@
+.flex-continer{
+    display: flex;
+    align-items: center;
+}
+
 .upper-icon{
     height: 30px;
     background-color: #A5C926;
@@ -5,8 +10,6 @@
 
 .container-header{
     height: 30px;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     margin: 0 50px 0 50px;
 }
@@ -14,16 +17,12 @@
 .how-contact{
     height: 30px;
     width: 300px;
-    display:flex;
-    align-items: center;
     justify-content: space-between;
 }
 
 .social-network{
     height: 30px;
     width: 130px;
-    display:flex;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -47,16 +46,13 @@
 
 .nav-container{
     width: 100%;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
+    color: #333333;
 }
 
 .nav-page{
     width: 380px;
     height: 40px;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
 }
   
@@ -79,9 +75,8 @@
 
 .cart-page{
     width: 100px;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
+    color: #333333;
 }
 
 .circle{
@@ -89,8 +84,6 @@
     width: 20px;
     background-color: #A5C926;
     border-radius: 10px;
-    display: flex;
-    align-items: center;
     justify-content: center;
     color: #fff;
 }
@@ -101,9 +94,20 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    justify-content: center;
 }
 
-.image-bc{
-    height: 640px;
-    width: 100%;
+.card-G{
+    height: 310px;
+    width: 570px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+}
+
+.oval{
+    width: 150px;
+    height: 50px;
+    background-color: #A5C926;
+    border-radius: 50px;
+    color: #fff;
 }

@@ -127,3 +127,27 @@
     border-radius: 50px;
     color: #fff;
 }
+
+.shop {
+    background-color: red;
+    height: fit-content; 
+    padding: 80px 50px;
+}
+  
+.content {
+    width: 100%; 
+    height: fit-content; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 40px;
+    background-color: green;
+}
+  
+.container {
+    min-width: 570px;
+    height: 260px; 
+    width: calc((100% - 40px) / 2); /* Заполняющая ширина контейнера с учетом промежутка */
+    background-color: pink;
+  }

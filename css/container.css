@@ -94,3 +94,16 @@
     justify-content: center;
     color: #fff;
 }
+
+.greeting-container{
+    height: 640px;
+    background: url(../image/greeting_first.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-bc{
+    height: 640px;
+    width: 100%;
+}

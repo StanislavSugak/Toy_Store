@@ -1,0 +1,25 @@
+.upper-header-text{
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    margin: 0;
+}
+
+.nav-text-left{
+    color: #333333;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 100;
+    font-size: 21px;
+    line-height: 32px;
+    vertical-align: bottom;
+    margin: 0;
+}
+
+.nav-text-right{
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}

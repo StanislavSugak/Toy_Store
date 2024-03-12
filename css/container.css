@@ -1,0 +1,83 @@
+.upper-icon{
+    height: 30px;
+    background-color: #A5C926;
+}
+
+.container-header{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px 0 50px;
+}
+
+.how-contact{
+    height: 30px;
+    width: 300px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-network{
+    height: 30px;
+    width: 130px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-network-icon{
+    height: 14px;
+    width: 14px;
+}
+
+.lower-nav{
+    height: 70px;
+}
+
+.nav-left-container{
+    width: 100px;
+}
+
+.nav-left{
+    display: inline-block;
+    width: 100px;
+}
+
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-page{
+    width: 380px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.nav-page-items-container{
+    width: 60px;
+}
+
+.nav-page-items{
+    display: inline-block;
+    width: 60px;
+}
+
+.first-child{
+    margin-left: 20px;
+}
+
+.last-child{
+    margin-right: 20px;
+}
+
+
+.cart-page{
+    width: 110px;
+}

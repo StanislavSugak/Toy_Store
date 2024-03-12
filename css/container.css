@@ -48,7 +48,7 @@
 .nav-container{
     width: 100%;
     justify-content: space-between;
-    color: #333333;
+    color: black;
 }
 
 .nav-page{
@@ -75,9 +75,9 @@
 }
 
 .cart-page{
-    width: 100px;
+    width: 110px;
     justify-content: space-between;
-    color: #333333;
+    color: black;
 }
 
 .circle{
@@ -103,6 +103,21 @@
     width: 570px;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #A5C926;
+}
+
+.card-G > p:first-child{
+    margin:45px 0 20px 0;
+}
+
+.container-for-text{
+    height: 100px;
+    width: 420px;
+    color: #000000;
+    margin-bottom: 20px;
 }
 
 .oval{

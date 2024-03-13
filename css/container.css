@@ -150,10 +150,30 @@
     height: 260px; 
     width: calc((100% - 40px) / 2); 
     background-color: pink;
-  }
+    display: flex;
+    align-items: flex-end;
+}
 
-@media (max-width: 1280px) {
+.shop-renctangle{
+    height: 180px; 
+    width: 100%;
+    border-radius: 20px;
+    background-color: #FFC12C;
+}
+
+.container:last-child .shop-renctangle{
+    background-color: #FB416B;
+}
+
+@media (max-width: 1279px) {
     .container {
         width: 100%; 
     }
+}
+
+.shop-image{
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    z-index:1;
 }

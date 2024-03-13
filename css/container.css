@@ -140,7 +140,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center; 
-    justify-content: space-between; 
+    justify-content: space-between; /* Изменено на space-around */
     gap: 40px;
     background-color: green;
 }
@@ -148,6 +148,12 @@
 .container {
     min-width: 570px;
     height: 260px; 
-    width: calc((100% - 40px) / 2); /* Заполняющая ширина контейнера с учетом промежутка */
+    width: calc((100% - 40px) / 2); 
     background-color: pink;
   }
+
+@media (max-width: 1280px) {
+    .container {
+        width: 100%; 
+    }
+}

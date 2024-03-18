@@ -359,3 +359,31 @@ p.margin-for-the-all{
     width: 15px;
     margin-left: 2.5px;
 }
+
+.free-valibale{
+    height: 730px;
+    width: 100%;
+}
+
+.free-valibale-container{
+    margin: 50px;
+}
+
+.upper-free-container{
+    justify-content: center;
+}
+
+.upper-free-contant{
+    height: 130px;
+    width: 450px;
+    color: #A5C926;
+}
+
+p.margin-for-free-upper{
+    margin-top: 15px;
+    color: black;
+}
+
+.lower-free-content{
+
+}

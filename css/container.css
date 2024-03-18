@@ -325,3 +325,27 @@
     color: white;
     margin-top: 10px;
 }
+
+.greeting-container-2background{
+    background: url(../image/Greeting_second.svg);    
+    height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+
+.button-play{
+    height: 60px;
+    width: 60px;
+    background-color: #A5C926;
+    border-radius: 15px;
+    justify-content: center;
+    margin: 35px 0 35px 0;
+}
+
+.button-play-image{
+    height: 15px;
+    width: 15px;
+    margin-left: 2.5px;
+}

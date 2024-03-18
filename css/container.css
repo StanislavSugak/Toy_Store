@@ -366,16 +366,22 @@ p.margin-for-the-all{
 }
 
 .free-valibale-container{
-    margin: 50px;
-}
-
-.upper-free-container{
+    padding: 50px;
+    height: 630px;
+    flex-direction: column;
     justify-content: center;
 }
 
-.upper-free-contant{
+.upper-free-container{
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+}
+
+.upper-free-content{
     height: 130px;
     width: 450px;
+    text-align: center;
     color: #A5C926;
 }
 
@@ -385,5 +391,20 @@ p.margin-for-free-upper{
 }
 
 .lower-free-content{
+    width: 100%;
+    height: 430px;
+    justify-content: center;
+    margin: 0 30px;
+    gap: 70px
+}
 
+.free-valible-image-group{
+    height: 350px;
+    width: calc((100% - 70px) / 2);
+}
+
+.free-valible-image{
+    height: 430px;
+    width: 100%;
+    object-fit: cover;
 }

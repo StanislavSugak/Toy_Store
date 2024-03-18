@@ -305,4 +305,24 @@
     width: 180px;
     margin: 40px calc((100% - 180px) / 2) 20px calc((100% - 180px) / 2);
     background-color: pink;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-image{
+    height: 180px;
+    width: 180px;
+    margin-bottom: 30px;
+}
+
+.card-button-buy{
+    width: 90px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #A5C926;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
 }

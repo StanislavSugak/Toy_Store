@@ -438,3 +438,33 @@ p.margin-lower-center-left-content{
     justify-content: center;
     grid-row: 27;
 }
+
+.subscribe{
+    height: fit-content;
+    width: 100%;
+}
+
+.subscribe-container{
+    height: fit-content;
+    width: 100%;
+    margin: 20px 50px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    gap: 20px;
+}
+
+.subscribe-content{
+    min-width: 580px;
+    height: 90px;
+    width: calc((100% - 20px - 100px) /2);
+    background-color: pink;
+}
+
+@media (max-width: 1279px) {
+    .subscribe-content {
+        width: 100%; 
+    }
+}

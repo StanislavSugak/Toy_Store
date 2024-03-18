@@ -400,11 +400,13 @@ p.margin-for-free-upper{
 
 .free-valible-image-group{
     height: 350px;
-    width: calc((100% - 70px) / 2);
+    width: calc((100% - 70px - 60px) / 2);
 }
+
 
 .free-valible-image{
     height: 430px;
-    width: 100%;
+    width: calc((100% - 70px - 60px) / 2);
+    border-radius: 15px;
     object-fit: cover;
 }

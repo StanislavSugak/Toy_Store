@@ -257,7 +257,7 @@
 
 .progress-bar-green{
     height: 2px;
-    width: 180px;
+    width: 160px;
     background-color:#A5C926;
 }
 
@@ -409,4 +409,22 @@ p.margin-for-free-upper{
     width: calc((100% - 70px - 60px) / 2);
     border-radius: 15px;
     object-fit: cover;
+}
+
+p.margin-lower-up-left-content{
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+p.margin-lower-center-left-content{
+    color: #999999;
+    margin-top: 24px;
+    text-align: left;
+}
+
+.oval-margin-lower-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px 0;
 }

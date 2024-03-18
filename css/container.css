@@ -129,7 +129,6 @@
 }
 
 .shop {
-    background-color: red;
     height: fit-content; 
     padding: 80px 50px;
 }
@@ -142,7 +141,6 @@
     align-items: center; 
     justify-content: space-between; /* Изменено на space-around */
     gap: 40px;
-    background-color: green;
 }
   
 .container {
@@ -150,7 +148,6 @@
     min-width: 570px;
     height: 260px; 
     width: calc((100% - 40px) / 2); 
-    background-color: pink;
     display: flex;
     align-items: flex-end;
 }
@@ -186,13 +183,22 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -57.5%);
+    align-items: flex-end;
 }
 
 .group-with-button{
     width: 215px;
-    height: 80px;
+    height: 85px;
     color: #fff;
-    justify-content: center;
+    margin: 0  30px 12px 30px;
+    text-align: left;
+}
+
+.group-with-button-left{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-left: 85px;
 }
 
 .button-shop-frame{
@@ -201,5 +207,6 @@
     background-color: #fff;
     color: black;
     border-radius: 20px;
+    margin-top: 5px;
     justify-content: center;
 }

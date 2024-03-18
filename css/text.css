@@ -21,6 +21,15 @@
     text-align: center;
 }
 
+.text-OS-13{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0;
+}
+
 .text-VR-39{
     font-family: 'Varela Round', sans-serif;
     font-weight:400;

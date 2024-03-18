@@ -225,8 +225,46 @@
 
 .upper-frame{
     height: 70px;
-    background-color:aqua;
+}
 
+.upper-content{
+    height: 68px;
+    width: 100%;
+    text-align: left;
+    margin: 0 10px;
+    justify-content: space-between;
+}
+
+.group-see-content{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px
+}
+
+.group-see-content-between{
+    width: 100px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-bar{
+    height: 2px;
+    margin: 0 10px;
+}
+
+.progress-bar-green{
+    height: 2px;
+    width: 140px;
+    background-color:#A5C926;
+}
+
+.progress-bar-gray{
+    height: 2px;
+    width: 100%;
+    background-color: #E5E5E5;
 }
 
 .select-card{

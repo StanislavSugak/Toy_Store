@@ -521,3 +521,29 @@ p.margin-lower-center-left-content{
     color: white;
     justify-content: center;
 }
+
+.have-instagram{
+    height: fit-content;
+    padding: 50px 40px;
+}
+
+.have-instagram-container{
+    height: fit-content;
+}
+
+.instagram-text{
+    height: 70px;
+    width: 340px;
+    justify-content: space-between;
+    margin: 40px 0 30px 0;
+    flex-direction: column;
+}
+
+.instagram-button{
+    height: 50px;
+    width: 170px;
+    background-color: #A5C926;
+    border-radius: 24px;
+    justify-content: center;
+    color: white;
+}

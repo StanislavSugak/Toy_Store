@@ -472,7 +472,7 @@ p.margin-lower-center-left-content{
 .subscribe-group{
     width: 380px;
     height: 60px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .button-play-subscribe{
@@ -480,9 +480,28 @@ p.margin-lower-center-left-content{
     width: 60px;
     background-color: #A5C926;
     justify-content: center;
+    border-radius: 10px;
 }
 
 .button-play-image-subscribe{
     height: 20px;
     width: 20px;
 }
+
+.subscribe-for-text{
+    width: 300px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-text-element{
+    width: fit-content;
+}
+
+.subscribe-text-element-color{
+    width: fit-content;
+    margin-left: 20px;
+    color: #A5C926;
+}
+
